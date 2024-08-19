@@ -1,0 +1,83 @@
+import React from 'react';
+import styled from 'styled-components';
+import { useLanguage } from '../context/LanguageContext';
+import { LocalizationLanguages } from '../types/enums';
+
+interface NavBarProps {
+  title: string;
+}
+
+const Nav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  border-radius: 8px;
+`;
+
+const Title = styled.h1`
+  font-size: 1.5rem;
+  margin: 0;
+`;
+
+const ButtonGroup = styled.div`
+  display: flex;
+`;
+
+interface ButtonProps {
+  isActive: boolean;
+}
+
+const LanguageButton = styled.button<ButtonProps>`
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: ${({ isActive }) => (isActive ? '#007bff' : 'inherit')};
+  color: ${({ isActive }) => (isActive ? 'white' : '#007bff')};
+
+  &:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+`;
+
+const NavBar: React.FC<NavBarProps> = ({ title }) => {
+  const { lang, setLang } = useLanguage();
+
+  return (
+    <Nav>
+      <Title>{title}</Title>
+      <ButtonGroup>
+        <LanguageButton
+          isActive={lang === LocalizationLanguages.cs}
+          onClick={() => setLang(LocalizationLanguages.cs)}
+        >
+          CZ
+        </LanguageButton>
+        <LanguageButton
+          isActive={lang === LocalizationLanguages.en}
+          onClick={() => setLang(LocalizationLanguages.en)}
+        >
+          ENG
+        </LanguageButton>
+        <LanguageButton
+          isActive={lang === LocalizationLanguages.esp}
+          onClick={() => setLang(LocalizationLanguages.esp)}
+        >
+          ESP
+        </LanguageButton>
+        <LanguageButton
+          isActive={lang === LocalizationLanguages.de}
+          onClick={() => setLang(LocalizationLanguages.de)}
+        >
+          GE
+        </LanguageButton>
+      </ButtonGroup>
+    </Nav>
+  );
+};
+
+export default NavBar;

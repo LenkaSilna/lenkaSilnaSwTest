@@ -6,10 +6,10 @@
         "keywords": "testování softwaru, automatizované testování, manuální testování, QA, kvalita softwaru",
         "ogTitle": "Profesionální testování softwaru",
         "ogDescription": "Zajišťujeme kvalitní testování softwaru, které zajistí bezchybný chod vašich aplikací. Naše služby zahrnují automatizované i manuální testování pro maximální spolehlivost vašeho softwaru.",
-        "ogImage": "/nextjs/images/default.jpg",
+        "ogImage": "/images/default.jpg",
         "twitterTitle": "Profesionální testování softwaru",
         "twitterDescription": "Zajišťujeme kvalitní testování softwaru, které zajistí bezchybný chod vašich aplikací. Naše služby zahrnují automatizované i manuální testování pro maximální spolehlivost vašeho softwaru.",
-        "twitterImage": "/nextjs/images/default.jpg"
+        "twitterImage": "/images/default.jpg"
       },
       "en": {
         "title": "Professional software testing",
@@ -17,10 +17,10 @@
         "keywords": "software testing, automated testing, manual testing, QA, software quality",
         "ogTitle": "Professional software testing",
         "ogDescription": "We provide quality software testing to ensure your applications run flawlessly. Our services include both automated and manual testing for maximum reliability of your software.",
-        "ogImage": "/nextjs/images/default.jpg",
+        "ogImage": "/images/default.jpg",
         "twitterTitle": "Professional software testing",
         "twitterDescription": "We provide quality software testing to ensure your applications run flawlessly. Our services include both automated and manual testing for maximum reliability of your software.",
-        "twitterImage": "/nextjs/images/default.jpg"
+        "twitterImage": "/images/default.jpg"
       },
       "de": {
         "title": "Software-Test",
@@ -28,10 +28,10 @@
         "keywords": "Softwaretests, automatisierte Tests, manuelle Tests, QA, Softwarequalität",
         "ogTitle": "Professionelle Softwareprüfung",
         "ogDescription": "Wir bieten qualitativ hochwertige Softwaretests, um sicherzustellen, dass Ihre Anwendungen einwandfrei funktionieren. Unsere Dienstleistungen umfassen sowohl automatisierte als auch manuelle Tests für maximale Zuverlässigkeit Ihrer Software.",
-        "ogImage": "/nextjs/images/default.jpg",
+        "ogImage": "/images/default.jpg",
         "twitterTitle": "Professionelle Softwareprüfung",
         "twitterDescription": "Wir bieten qualitativ hochwertige Softwaretests, um sicherzustellen, dass Ihre Anwendungen einwandfrei funktionieren. Unsere Dienstleistungen umfassen sowohl automatisierte als auch manuelle Tests für maximale Zuverlässigkeit Ihrer Software.",
-        "twitterImage": "/nextjs/images/default.jpg"
+        "twitterImage": "/images/default.jpg"
       },
       "esp": {
         "title": "Pruebas profesionales de software",
@@ -39,10 +39,10 @@
         "keywords": "pruebas de software, pruebas automatizadas, pruebas manuales, control de calidad, calidad del software",
         "ogTitle": "Pruebas profesionales de software",
         "ogDescription": "Proporcionamos pruebas de software de calidad para garantizar que sus aplicaciones funcionen a la perfección. Nuestros servicios incluyen pruebas automatizadas y manuales para lograr la máxima fiabilidad de su software.",
-        "ogImage": "/nextjs/images/default.jpg",
+        "ogImage": "/images/default.jpg",
         "twitterTitle": "Pruebas profesionales de software",
         "twitterDescription": "Proporcionamos pruebas de software de calidad para garantizar que sus aplicaciones funcionen a la perfección. Nuestros servicios incluyen pruebas automatizadas y manuales para lograr la máxima fiabilidad de su software.",
-        "twitterImage": "/nextjs/images/default.jpg"
+        "twitterImage": "/images/default.jpg"
       }
     }
   }

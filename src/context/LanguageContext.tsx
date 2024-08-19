@@ -11,11 +11,19 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 )
 
 export const LanguageProvider = ({children}: {children: ReactNode}) => {
-	const savedLang = localStorage.getItem(
-		'website-language'
-	) as LocalizationLanguages | null
-	const defaultLang = savedLang || LocalizationLanguages.en
-	const [lang, setLang] = useState<LocalizationLanguages>(defaultLang)
+	const [lang, setLang] = useState<LocalizationLanguages>(
+		LocalizationLanguages.en
+	)
+
+	useEffect(() => {
+		// Tento kód se provede pouze na klientské straně
+		const savedLang = localStorage.getItem(
+			'website-language'
+		) as LocalizationLanguages | null
+		if (savedLang) {
+			setLang(savedLang)
+		}
+	}, [])
 
 	useEffect(() => {
 		localStorage.setItem('website-language', lang)

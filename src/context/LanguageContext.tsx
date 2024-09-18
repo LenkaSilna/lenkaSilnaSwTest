@@ -16,7 +16,6 @@ export const LanguageProvider = ({children}: {children: ReactNode}) => {
 	)
 
 	useEffect(() => {
-		// Tento kód se provede pouze na klientské straně
 		const savedLang = localStorage.getItem(
 			'website-language'
 		) as LocalizationLanguages | null

@@ -66,7 +66,7 @@ const NavBar: React.FC<NavBarProps> = ({title}) => {
 					isActive={lang === LocalizationLanguages.de}
 					onClick={() => setLang(LocalizationLanguages.de)}
 				>
-					GE
+					DE
 				</LanguageButton>
 				<LanguageButton
 					isActive={lang === LocalizationLanguages.esp}
